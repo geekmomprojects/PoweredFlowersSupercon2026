@@ -11,8 +11,7 @@ The primary steps of this project are:
   - [Soldering/Electronics Assembly](assembly_electronics/README.md)
   - [Physical LED String/Diffuser Assembly](assembly_leds_diffuser/README.md)
 - [Sew LED assembly to clothing/accessory](assembly_sewing/README.md)
-- [WLED installation/configuration](config_wled/README.md)
-- <br><br>
+- [WLED installation/configuration](config_wled/README.md)<br><br>
 
 For efficiency, the first two steps [Soldering/Electronics Assembly](assembly_electronics/README.md) and [Physical LED String/Diffuser Assembly](assembly_leds_diffuser/README.md) occur in parallel, so complete either step first, then proceeed to sewing and WLED configuration.
 
