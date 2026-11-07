@@ -14,5 +14,5 @@ The primary steps of this project are:
 - [WLED installation/configuration](config_wled/README.md)
 - <br><br>
 
-For efficiency, the first two steps occur parallel, so start with either step, then swap.
+For efficiency, the first two steps [Soldering/Electronics Assembly](assembly_electronics/README.md) and [Physical LED String/Diffuser Assembly](assembly_leds_diffuser/README.md) occur in parallel, so complete either step first, then proceeed to sewing and WLED configuration.
 
