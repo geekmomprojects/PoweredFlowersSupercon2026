@@ -2,15 +2,17 @@
 
 ## Accessing your WLED
 
-Find the access point for your board - default name is **WLED-SCONXXX** where **XXX** is the one or two digit number matching the sticker underneath the batteryt on the board. The default password is **wled1234**. Connecting to it should bring up a captive portal with the control web page, but if not, open a browser and go to IP address **4.3.2.1** in the address bar.
+Find the access point for your board - default name is **WLED-SCONXXX** where **XXX** is the one or two digit number matching the sticker underneath the battery on the board. The default password is **wled1234**. Connecting to it should bring up a captive portal with the control web page, but if not, open a browser and go to IP address **4.3.2.1** in the address bar. You will see the WLED control panel shown below:<br>
+<img src="images/wled_control_panel.png" width="600"><br><br>
 
-## Fix "Next Pattern" Macro
 
-In the effects list at the right of the screen, expand macro #30 and change the command to the text shown below:<br>
+## Fix "Next in Playlist" Preset
+
+In the effects list at the right of the screen, expand preset #30 and change the command to the text shown below:<br>
 <img src="images/fix_macro_next.png" height="200"><br><br>
 
 
-## Flashing WLED
+## Flashing WLED (For reference. This has been done for you)
 
 To save time, the LilyGo T-OI ESP32 controllers have been pre-flashed with WLED, but if you'd ever like to re-flash them, the information is below: 
 
