@@ -21,15 +21,18 @@ The easiest way to flash WLED to an ESP is through the official online installer
 You can also download and flash the binary from the second site yourself. We are using the standard version audio-reactive WLED firmware from the nightlhy build, esp32-C3 with 4MB RAM<br>
 <img src="images/wled_version_select.png" width="240">
 
--  JSON files for installing the presets and configurations are included in this directory. These can be imported directly into WLED from the Security configuration page in WLED.
+JSON files for installing the presets (wled_presets_teardown.json) and configurations (wled_cfg_teardown.json) are included in this directory. These can be imported directly into WLED from the "Security and Updates" configuration page.
+  
+If you want to manually set the configuration, these are the pin assigments.
+
 - Hardware Configuration
-  - 10 WS2812 LEDs on **pin 8**
-  - push button on **pin 9**
-  - I2S microphone IMNP441
+  - 10 WS2812 LEDs on **pin 8** (set in "LED & Hardware" configuration page)
+  - push button on **pin 9** (set in "LED & Hardware" configuration page)
+  - I2S microphone IMNP441 (set in "Usermods" configuration page)
      - SCK **pin 4**
      - WS **pin 2**
      - SD **pin 5**
-     - L/R connected to GND
+- 
 
 
 
